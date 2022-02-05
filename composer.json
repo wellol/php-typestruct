@@ -1,5 +1,5 @@
 {
-    "name": "amsify42/php-typestruct",
+    "name": "wellol/php-typestruct",
     "description": "PHP package for validating data against the structure defined",
     "keywords": ["typestruct", "php typestruct", "php validation", "validation"],
     "type": "library",
@@ -14,7 +14,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.0.0",
-        "amsify42/php-vars-data": "dev-master"
+        "wellol/php-vars-data": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit":  "^7.0"
@@ -24,7 +24,7 @@
             "src/Helper/global.php"
         ],
         "psr-4": {
-            "Amsify42\\TypeStruct\\": "src/"
+            "Wellol\\TypeStruct\\": "src/"
         }
     },
     "autoload-dev": {
@@ -32,7 +32,7 @@
             "tests/global.php"
         ],
         "psr-4": {
-            "Amsify42\\Tests\\": "tests/"
+            "Wellol\\Tests\\": "tests/"
         }
     }
 }
